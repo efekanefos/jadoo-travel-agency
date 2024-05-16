@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heroContent {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 550px;
+  position: relative;
+}
+.heroInfoContent,
+.heroImageContent,
+.heroImage {
+  width: 100%;
+}
+.heroImage {
+  display: flex;
+}
+.heroInfoContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  position: absolute;
+  max-width: 600px;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+.heroInfoSubTitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #df6951;
+}
+.heroInfoMainTitle {
+  font-family: "Volkhov", sans-serif;
+  font-weight: bold;
+  font-size: 84px;
+  color: #181e4b;
+  line-height: 89px;
+}
+.heroInfoDesc {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #5e6282;
+  max-width: 480px;
+}
+.heroInfoTextDecore {
+  position: relative;
+}
+.heroInfoTextDecore::after {
+  content: "";
+  height: 100%;
+  width: 23rem;
+  background: url(../../assets/heroImages/title_decore.png) bottom no-repeat;
+  position: absolute;
+  left: 0;
+  bottom: 1.1rem;
+  z-index: -1;
+}
+.heroButtonContent {
+  max-width: 380px;
+  gap: 2rem;
+}
+.heroButtonContent,
+.heroDemoContent {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.heroDemoContent {
+  gap: 1rem;
+}
+.heroDemoDesc,
+.heroButton {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 17px;
+  color: #686d77;
+}
+.heroButton {
+  color: #fff;
+  background-color: #f1a501;
+  width: 170px;
+  height: 60px;
+  text-align: center;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}

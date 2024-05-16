@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainContent {
+  background: url(./assets/heroImages/hero_decore.png) right no-repeat;
+  background-size: contain;
+  max-width: 100%;
+}

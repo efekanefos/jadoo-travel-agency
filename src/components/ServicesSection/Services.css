@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.servicesContent {
+  padding-bottom: 3rem;
+}
+.sectionSubTitle,
+.servicesMainTitle,
+.serviceTitle,
+.serviceCardDesc {
+  text-align: center;
+}
+.sectionSubTitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #5e6282;
+}
+.servicesMainTitle {
+  font-family: "Volkhov", sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: #14183e;
+}
+.servicesCards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.servicesCard {
+  max-width: 267px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.serviceTitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #1e1d4c;
+}
+.serviceCardDesc {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #5e6282;
+}
+.servicesCardImgContent {
+  min-width: 167px;
+  min-height: 154px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
