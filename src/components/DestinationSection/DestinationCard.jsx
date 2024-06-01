@@ -19,7 +19,7 @@ function DestinationCard({ image, location, price, tripDay }) {
             className="destinationCardBottomImg"
           />
         </div>
-        <p className="destinationCardBottomDesc">{tripDay}</p>
+        <p className="destinationCardBottomDesc">{tripDay} Days Trip</p>
       </div>
     </div>
   );

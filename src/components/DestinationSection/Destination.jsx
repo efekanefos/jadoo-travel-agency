@@ -29,9 +29,7 @@ const destinationCards = [
 function Destination() {
   return (
     <section className="destinationContent">
-      <h4 classN ame="sectionSubTitle">
-        Top Selling
-      </h4>
+      <h4 className="sectionSubTitle">Top Selling</h4>
       <h1 className="sectionMainTitle"> Top Destinations</h1>
       <div className="destinationCards">
         {destinationCards.map((card, index) => (

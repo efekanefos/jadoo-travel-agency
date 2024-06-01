@@ -6,8 +6,9 @@
 
 .mainContent {
   background: url(./assets/heroImages/hero_decore.png) right no-repeat;
-  background-size: contain;
   max-width: 100%;
+  background-size: contain;
+  background-position: top right;
 }
 .sectionSubTitle,
 .sectionMainTitle {
