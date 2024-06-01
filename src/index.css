@@ -9,3 +9,19 @@
   background-size: contain;
   max-width: 100%;
 }
+.sectionSubTitle,
+.sectionMainTitle {
+  text-align: center;
+}
+.sectionSubTitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #5e6282;
+}
+.sectionMainTitle {
+  font-family: "Volkhov", sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: #14183e;
+}

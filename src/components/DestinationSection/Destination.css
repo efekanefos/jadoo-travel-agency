@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.destinationContent {
+  font-family: "Poppins", sans-serif;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.destinationCards {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.destinationCard {
+  max-width: 314px;
+}
+.destinationCardImgContent {
+  max-height: 327px;
+  overflow: hidden;
+}
+.destinationCardImg {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.destinationCardBody {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+.destinationCardBottom {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.destinationCardBottomImgContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
