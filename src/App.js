@@ -4,6 +4,7 @@ import Header from "./components/HeaderSection/Header";
 import Services from "./components/ServicesSection/Services";
 import Destination from "./components/DestinationSection/Destination";
 import Step from "./components/StepSection/Step";
+import Testimonial from "./components/TestimonialSection/Testimonial";
 import "./index.css";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Services />
       <Destination />
       <Step />
+      <Testimonial />
     </main>
   );
 }

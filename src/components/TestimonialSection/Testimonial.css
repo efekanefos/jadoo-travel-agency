@@ -1,0 +1,9 @@
+.testimonialContent {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.testimonialContent .sectionSubTitle,
+.testimonialContent .sectionMainTitle {
+  text-align: left;
+}
