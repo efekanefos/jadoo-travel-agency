@@ -5,6 +5,8 @@ import Services from "./components/ServicesSection/Services";
 import Destination from "./components/DestinationSection/Destination";
 import Step from "./components/StepSection/Step";
 import Testimonial from "./components/TestimonialSection/Testimonial";
+import Logo from "./components/LogoSection/Logo";
+import Subscribe from "./components/SubscribeSection/Subscribe";
 import "./index.css";
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
       <Destination />
       <Step />
       <Testimonial />
+      <Logo />
+      <Subscribe />
     </main>
   );
 }

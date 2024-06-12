@@ -1,0 +1,25 @@
+.logoContent {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 3rem auto;
+}
+.logoBox {
+  transition: all 0.5s;
+  padding: 0.5rem;
+  width: 10rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logoBoxImg {
+  width: 100%;
+  object-fit: contain;
+}
+.logoBox:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
