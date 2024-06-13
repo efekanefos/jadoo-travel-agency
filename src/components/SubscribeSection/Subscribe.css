@@ -1,13 +1,38 @@
 .subscribeWrapper,
 .subscribeContent {
   max-width: 1200px;
-  margin: 1rem auto;
+  margin: 1rem auto 10rem;
+  width: 100%;
+}
+.subscribeWrapper {
+  position: relative;
+}
+.subscribeImgContent {
+  position: absolute;
+  right: 1rem;
+  top: -1rem;
+  z-index: 9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .subscribeContent {
   font-family: "Poppins";
   max-width: 1100px;
   background-color: rgb(223, 215, 249, 0.2);
   height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  border-top-left-radius: 129px;
+  padding: 4rem 2rem;
+  padding-bottom: 5rem;
+  gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
 }
 .subscribeTitle {
   font-weight: 600;
@@ -15,11 +40,57 @@
   font-size: 33px;
   text-align: center;
 }
+.subscribeSearchContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.subscribeInputContent {
+  margin-right: 0.5rem;
+}
 .subscribeInput {
-  max-width: 421px;
+  min-width: 421px;
   width: 100%;
   min-height: 68px;
   background-image: url(../../assets/subscribeImages/mail.png);
   background-repeat: no-repeat;
-  background-position: center 5rem;
+  background-position: 1rem 50%;
+  padding-left: 3rem;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-family: "Poppins";
+}
+.subscribeButton {
+  background-image: linear-gradient(#ff946d, #ff7d68);
+  border-radius: 10px;
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 17px;
+  width: 180px;
+  height: 68px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.subscribeLeftEllips {
+  width: 390px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -7.25rem;
+  background: url(../../assets/subscribeImages/left_ellips.png) no-repeat;
+  opacity: 0.1;
+  z-index: -1;
+}
+.subscribeRightEllips {
+  width: 285px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: -5rem;
+  background: url(../../assets/subscribeImages/right_ellips.png) no-repeat;
+  opacity: 0.1;
+  z-index: -1;
 }
