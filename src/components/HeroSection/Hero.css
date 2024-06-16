@@ -13,6 +13,7 @@
   margin: 0 auto;
   min-height: 550px;
   position: relative;
+  padding: 0 0.5rem;
 }
 .heroInfoContent,
 .heroImageContent,
@@ -29,6 +30,7 @@
   position: absolute;
   max-width: 600px;
   top: 50%;
+  left: 0.5rem;
   transform: translate(0%, -50%);
 }
 .heroInfoSubTitle {
@@ -94,4 +96,74 @@
   border: none;
   outline: none;
   border-radius: 10px;
+}
+
+@media (max-width: 1200px) {
+  .heroInfoContent {
+    gap: 0.5rem;
+  }
+  .heroInfoSubTitle {
+    font-size: 16px;
+  }
+  .heroInfoMainTitle {
+    font-size: 60px;
+  }
+  .heroInfoTextDecore::after {
+    width: 11rem;
+  }
+  .heroInfoDesc {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .heroInfoMainTitle {
+    font-size: 45px;
+    line-height: 60px;
+  }
+  .heroInfoTextDecore::after {
+    bottom: 0;
+  }
+}
+@media (max-width: 800px) {
+  .heroContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .heroInfoContent {
+    position: unset;
+    transform: translate(0, 0);
+    max-width: 100%;
+    text-align: center;
+  }
+  .heroInfoDesc {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .heroButtonContent {
+    justify-content: center;
+    max-width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .heroButton {
+    width: 120px;
+    height: 50px;
+    font-size: 14px;
+  }
+  .heroDemoImgContent {
+    max-width: 35px;
+  }
+  .heroDemoImg {
+    width: 100%;
+    height: 100%;
+  }
+  .heroDemoDesc {
+    font-size: 14px;
+  }
+  .heroDemoContent {
+    gap: 0.25rem;
+  }
 }

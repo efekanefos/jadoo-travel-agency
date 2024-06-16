@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  padding: 1rem;
 }
 
 .testimonialContent .sectionSubTitle,
@@ -90,4 +91,31 @@
 }
 .swiper-pagination-bullet-active {
   background-color: #39425d !important;
+}
+
+@media (max-width: 900px) {
+  .testimonialContent {
+    flex-direction: column;
+  }
+  .testimonialContent .sectionSubTitle,
+  .testimonialContent .sectionMainTitle {
+    text-align: center;
+  }
+}
+@media (max-width: 900px) {
+  .testimonialCard,
+  .swiper {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .testimonialCardDesc {
+    font-size: 14px;
+  }
+  .testimonialCardCustomerName {
+    font-size: 16px;
+  }
+  .testimonialCardCustomerLocation {
+    font-size: 12px;
+  }
 }
