@@ -1,5 +1,6 @@
 import React from "react";
 import sendingArrow from "../../assets/subscribeImages/sending_arrow.png";
+import containerDecore from "../../assets/subscribeImages/container_decore.png";
 import "./Subscribe.css";
 
 function Subscribe() {
@@ -7,6 +8,9 @@ function Subscribe() {
     <section className="subscribeWrapper">
       <div className="subscribeImgContent">
         <img src={sendingArrow} alt="Purple Arrow" className="subscribeImg" />
+      </div>
+      <div className="subscribeContentDecoreImgContent">
+        <img src={containerDecore} alt="Decore with Plus" className="subscribeContentDecoreImg" />
       </div>
       <div className="subscribeContent">
         <div className="subscribeLeftEllips"></div>

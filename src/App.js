@@ -7,6 +7,7 @@ import Step from "./components/StepSection/Step";
 import Testimonial from "./components/TestimonialSection/Testimonial";
 import Logo from "./components/LogoSection/Logo";
 import Subscribe from "./components/SubscribeSection/Subscribe";
+import Footer from "./components/FooterSection/Footer";
 import "./index.css";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Testimonial />
       <Logo />
       <Subscribe />
+      <Footer />
     </main>
   );
 }
