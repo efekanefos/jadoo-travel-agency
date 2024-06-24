@@ -167,3 +167,12 @@
     gap: 0.25rem;
   }
 }
+@media (max-width: 400px) {
+  .heroInfoMainTitle {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  .heroInfoTextDecore::after {
+    width: 7rem;
+  }
+}
